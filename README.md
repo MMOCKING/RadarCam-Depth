@@ -14,6 +14,10 @@ RadarCam-Depth: Radar-Camera Fusion for Depth Estimation with Learned Metric Sca
 
 Our proposed RadarCam-Depth is comprised with four stages: **monocular depth prediction**, **global alignment of mono-depth** with sparse Radar depth, learned **quasi-dense scale estimation**, and **scale map learner** for refining local scale. $\mathbf{d}$ and $\mathbf{s}$ denotes the depth and scale, while $\mathbf{z}=1/\mathbf{d}$ is the inverse depth.
 
+## Demo
+
+https://youtu.be/JDn0Sua5d9o
+
 ## Dataset
 
 Download link: [ZJU-4DRadarCam](https://zjuteducn-my.sharepoint.com/:f:/g/personal/201706120314_zjut_edu_cn/EqBhqpZUrmRBvGhB1KqOp9oBlB1w_Vhbl9Z7qQ-oi8J0zg?e=xZZeOB)

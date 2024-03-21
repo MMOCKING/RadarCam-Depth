@@ -1,0 +1,6 @@
+Validation results:
+    Step       MAE      RMSE      iMAE     iRMSE   Abs_Rel    Sq_Rel    Delta1
+    6000  1183.471  3228.999    10.432    22.838     0.088   610.501     0.920
+Best results:
+    Step       MAE      RMSE      iMAE     iRMSE   Abs_Rel    Sq_Rel    Delta1
+    6000  1183.471  3228.999    10.432    22.838     0.088   610.501     0.920

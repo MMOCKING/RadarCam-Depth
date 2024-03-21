@@ -52,7 +52,7 @@ if __name__ == "__main__":
         radar_paths = data_utils.load_data_path(os.path.join(root, 'radar_png/'), run_list, '.png')
         sparse_gt_paths = data_utils.load_data_path(os.path.join(root, 'gt/'), run_list, '.png')
         rcnet_paths = data_utils.load_data_path(os.path.join(result_root, 'rcnet/depth_predicted/'), run_list, '.png')
-        mono_ga_paths = data_utils.load_data_path(os.path.join(root, 'global_aligned_mono/dpt_var/'), run_list, '.png')
+        mono_ga_paths = data_utils.load_data_path(os.path.join(result_root, 'global_aligned_mono/dpt_var/'), run_list, '.png')
 
         with torch.no_grad():
             best_results = validate(

@@ -53,9 +53,10 @@ conda activate rc-depth
 Download [ZJU-4DRadarCam](https://zjuteducn-my.sharepoint.com/:f:/g/personal/201706120314_zjut_edu_cn/EqBhqpZUrmRBvGhB1KqOp9oBlB1w_Vhbl9Z7qQ-oi8J0zg?e=xZZeOB) and use `sml_run_zju.py` for quick starting.
 
 ### Monocular Predictions
-
+DPT:
 https://github.com/isl-org/DPT
 
+MiDaS:
 https://github.com/isl-org/MiDaS
 
 ### RC-Net

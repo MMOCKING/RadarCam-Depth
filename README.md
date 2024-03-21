@@ -1,5 +1,7 @@
 # RadarCam-Depth
 
+RadarCam-Depth: Radar-Camera Fusion for Depth Estimation with Learned Metric Scale (ICRA2024)
+
 ## Introduction
 
 <img src="assets/cover.png" alt="cover" style="zoom:50%;" />
@@ -12,6 +14,59 @@
 
 Our proposed RadarCam-Depth is comprised with four stages: **monocular depth prediction**, **global alignment of mono-depth** with sparse Radar depth, learned **quasi-dense scale estimation**, and **scale map learner** for refining local scale. $\mathbf{d}$ and $\mathbf{s}$ denotes the depth and scale, while $\mathbf{z}=1/\mathbf{d}$ is the inverse depth.
 
+## Dataset
+
+Download link: [ZJU-4DRadarCam](https://zjuteducn-my.sharepoint.com/:f:/g/personal/201706120314_zjut_edu_cn/EqBhqpZUrmRBvGhB1KqOp9oBlB1w_Vhbl9Z7qQ-oi8J0zg?e=xZZeOB)
+
+```
+ZJU-4DRadarCam
+├── data
+│   ├── gt  # sparse lidar depths
+│   ├── gt_interp  # interpolated lidar depths
+│   ├── image # RGB images
+│   ├── radar # npy files of radar depths
+│   ├── radar_png # png files of radar depths
+│   ├── train.txt # files for training
+│   ├── val.txt # files for validation
+│   ├── test.txt # files for testing
+│   ├── full.txt # full files
+├── result
+│   ├── global_aligned_mono
+│   │   ├── dpt_var # global aligned DPT predictions
+│   ├── rcnet
+│   │   ├── depth_predicted # quasi-dense depth from RC-Net
+```
+
+## Usage
+
+Setup dependencies:
+
+```
+conda env create -f environment.yaml
+conda activate rc-depth
+```
+
+Download [ZJU-4DRadarCam](https://zjuteducn-my.sharepoint.com/:f:/g/personal/201706120314_zjut_edu_cn/EqBhqpZUrmRBvGhB1KqOp9oBlB1w_Vhbl9Z7qQ-oi8J0zg?e=xZZeOB) and use `sml_run_zju.py` for quick starting.
+
+### Monocular Predictions
+
+https://github.com/isl-org/DPT
+https://github.com/isl-org/MiDaS
+
+### RC-Net
+
+```
+python rcnet_train_zju.py
+python rcnet_run_zju.py
+```
+
+### Scale Map Learner
+
+```
+python sml_train_zju.py
+python sml_run_zju.py
+```
+
 ## Citation
 
 ```
@@ -22,4 +77,8 @@ Our proposed RadarCam-Depth is comprised with four stages: **monocular depth pre
   year={2024}
 }
 ```
+
+## Acknowledgements
+
+Our work builds on and uses code from [DPT](https://github.com/isl-org/DPT), [MiDaS](https://github.com/isl-org/MiDaS), [VI-Depth](https://github.com/isl-org/VI-Depth), and [radar-camera-fusion-depth](https://github.com/nesl/radar-camera-fusion-depth). We'd like to thank the authors for making these libraries and frameworks available.
 

@@ -60,6 +60,7 @@ MiDaS:
 https://github.com/isl-org/MiDaS
 
 ### RC-Net
+For intermediate quasi-dense depth:
 
 ```
 python rcnet_train_zju.py
@@ -67,6 +68,7 @@ python rcnet_run_zju.py
 ```
 
 ### Scale Map Learner
+For final dense depth:
 
 ```
 python sml_train_zju.py

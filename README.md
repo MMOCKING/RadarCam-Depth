@@ -60,7 +60,7 @@ MiDaS:
 https://github.com/isl-org/MiDaS
 
 ### RC-Net
-For intermediate quasi-dense depth:
+For intermediate output (quasi-dense depth):
 
 ```
 python rcnet_train_zju.py

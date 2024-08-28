@@ -50,7 +50,8 @@ conda env create -f environment.yaml
 conda activate rc-depth
 ```
 
-Download [ZJU-4DRadarCam](https://zjuteducn-my.sharepoint.com/:f:/g/personal/201706120314_zjut_edu_cn/EqBhqpZUrmRBvGhB1KqOp9oBlB1w_Vhbl9Z7qQ-oi8J0zg?e=xZZeOB) and use `sml_run_zju.py` for quick starting.
+Download [ZJU-4DRadarCam](https://pan.baidu.com/s/1owUFYBisYJGkibHPRhkntg?pwd=1897) and use `sml_run_zju.py` for quick starting.
+Code for extracting if needed: 1897
 
 ### Monocular Predictions
 DPT:

@@ -21,7 +21,9 @@ https://youtu.be/JDn0Sua5d9o
 ## Dataset
 
 Download link (Baidu): [ZJU-4DRadarCam](https://pan.baidu.com/s/1owUFYBisYJGkibHPRhkntg?pwd=1897)
-Download link (APRIL LAB): [ZJU-4DRadarCam](http://gofile.me/5oQXF/05sbsVCsB) UPLOADING
+
+Download link (APRIL LAB): [ZJU-4DRadarCam](http://gofile.me/5oQXF/05sbsVCsB) (UPLOADING NOW)
+
 Code for extracting netdisk data if needed: 1897
 
 ```
@@ -42,6 +44,8 @@ ZJU-4DRadarCam
 │   ├── rcnet
 │   │   ├── depth_predicted # quasi-dense depth from RC-Net
 ```
+
+[Instrinsics and extrinsics](https://github.com/MMOCKING/RadarCam-Depth/issues/7)
 
 ## Usage
 

@@ -22,7 +22,7 @@ https://youtu.be/JDn0Sua5d9o
 
 Download link (Baidu): [ZJU-4DRadarCam](https://pan.baidu.com/s/1owUFYBisYJGkibHPRhkntg?pwd=1897)
 
-Download link (APRIL LAB): [ZJU-4DRadarCam](http://gofile.me/5oQXF/05sbsVCsB) (UPLOADING NOW)
+Download link (APRIL LAB): [ZJU-4DRadarCam](http://gofile.me/5oQXF/05sbsVCsB)
 
 Code for extracting netdisk data if needed: 1897
 
